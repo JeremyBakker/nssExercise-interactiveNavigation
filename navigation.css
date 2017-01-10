@@ -1,0 +1,31 @@
+nav {
+	height: 50px;
+	width: 100%;
+	background-color: lightblue;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	width: 25%;
+	vertical-align: center;
+	padding-bottom: 1em;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	font-size: 1.3125em;
+}
